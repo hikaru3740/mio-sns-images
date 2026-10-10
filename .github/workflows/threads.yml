@@ -1,1 +1,30 @@
-
+name: threads-post
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: threads-post
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post due Threads item
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: "28608837425410052"
+        run: python3 threads/post.py
+      - name: Save queue
+        run: |
+          git config user.name "mio-bot"
+          git config user.email "mio-bot@users.noreply.github.com"
+          git add threads/queue.json
+          git diff --cached --quiet || (git commit -m "threads: update queue [skip ci]" && git push)
