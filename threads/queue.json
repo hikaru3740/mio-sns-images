@@ -51,7 +51,9 @@
       "text": "リビングの角に、いちばん集まりやすい物はどれですか？\n\nA 取り込んだ洗濯物\nB 家族のカバンや上着\nC 郵便物や書類\n\nどれも「あとで片付ける物」ですよね。\n風水では、角にためた物は気の流れをふさぐと考えられています。\n\n答えは、行き先を決めること。\nAはたたむ場所、Bはフック、Cはトレーを一つ。\n\n今日は、いちばん多い物の行き先を一つだけ決めましょう。",
       "topic_tag": "風水",
       "image_url": null,
-      "status": "pending"
+      "status": "failed",
+      "error": "HTTP 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 18128790130710940 cannot be found.\",\"fbtrace_id\":\"AZStWMASiiXyAgRuTYnlwAD\"}}",
+      "failed_at": "2026-10-12T21:46:15.020907+09:00"
     },
     {
       "id": "W1D4_TH_01",
