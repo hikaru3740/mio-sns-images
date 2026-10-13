@@ -72,7 +72,9 @@
       "text": "【放置に注意】財布の中のレシート\n\nレシートで財布がふくらんでいると、\nお札を出すたびに、紙をかき分けることになります。\n\n風水では、レシートは「出ていったお金の記録」と言われます。\n財布にためこまないほうがよいと考えられています。\n\n今日できること：\n帰宅したら、その日のレシートを財布から出す。\n家計簿用なら、入れる箱を一つ決めておくと迷いません。",
       "topic_tag": "風水",
       "image_url": "https://raw.githubusercontent.com/hikaru3740/mio-sns-images/main/w1/W1D4_IMG_02.jpg",
-      "status": "pending"
+      "status": "failed",
+      "error": "HTTP 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 18128977000710940 cannot be found.\",\"fbtrace_id\":\"AVVNWFhju1C5LmE46795QsI\"}}",
+      "failed_at": "2026-10-13T11:45:03.931167+09:00"
     },
     {
       "id": "W1D4_TH_04",
