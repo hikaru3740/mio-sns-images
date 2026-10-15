@@ -180,7 +180,9 @@
       "text": "雨の日の部屋干し。\n洗濯物どうしをくっつけて干していませんか。\n\n風水では、湿気がこもる部屋は気がよどみやすいと考えられています。\n暮らしの面でも、乾くのが遅いと生乾きのにおいが出やすくなります。\n\n干すときのコツは3つです。\n・洗濯物の間は、こぶし一つ分あける\n・扇風機やサーキュレーターの風を当てる\n・換気扇か窓で、湿気の出口を作る\n\n図にまとめました。保存してどうぞ。",
       "topic_tag": "暮らしを整える",
       "image_url": "https://raw.githubusercontent.com/hikaru3740/mio-sns-images/main/w1/W1D6_IMG_08.jpg",
-      "status": "pending"
+      "status": "failed",
+      "error": "HTTP 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 18129670984710940 cannot be found.\",\"fbtrace_id\":\"As3aJTuPUxsN7Y0kxYLwndn\"}}",
+      "failed_at": "2026-10-15T11:37:01.790795+09:00"
     },
     {
       "id": "W1D6_TH_04",
